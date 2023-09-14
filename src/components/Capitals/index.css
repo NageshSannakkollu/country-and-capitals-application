@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #93c5fd;
+}
+
+.capital-country-container {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 400px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px 40px;
+  font-family: 'Roboto';
+}
+
+.heading {
+  font-size: 25px;
+}
+
+.country-container {
+  display: flex;
+}
+.select-options {
+  outline: none;
+  cursor: pointer;
+}
